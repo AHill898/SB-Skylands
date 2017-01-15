@@ -3,7 +3,7 @@
 
 	<groupId>de.sirati97.sb</groupId>
 	<artifactId>SB-Skylands</artifactId>
-	<version>0.18.1-SNAPSHOT</version>
+	<version>0.18.2-SNAPSHOT</version>
 	<build>
 		<plugins>
 			<plugin>
@@ -32,18 +32,16 @@
 		<dependency>
 			<groupId>org.spigotmc</groupId>
 			<artifactId>spigot-api</artifactId>
-			<version>1.10-R0.1-SNAPSHOT</version>
+			<version>1.11.2-R0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>de.sirati97</groupId>
-			<artifactId>oilspigot</artifactId>
-			<version>1.10-R0.1-SNAPSHOT</version>
+			<groupId>org.spigotmc</groupId>
+			<artifactId>spigot</artifactId>
+			<version>1.11.2</version>
+			<optional>false</optional>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/spigot-1.11.2.jar</systemPath>
 		</dependency>
-        <dependency>
-            <groupId>de.sirati97.sb</groupId>
-            <artifactId>SB-Plots</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
 	</dependencies>
 
 </project>
