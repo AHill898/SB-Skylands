@@ -26,6 +26,13 @@
 		<baseplugin.version>13</baseplugin.version>
 		<baseplugin.package>13</baseplugin.package>
 	</properties>
+    
+    <repositories>
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
 	
 	<dependencies>
 		<!--Spigot-API-->
